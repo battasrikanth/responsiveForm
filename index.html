@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skits hiring link</title>
+    <link rel="icon" href="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-SK-Logo-Design-by-Greenlines-Studios-312x208.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+    <header><img src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-SK-Logo-Design-by-Greenlines-Studios-312x208.jpg" alt="company logo">
+        <h1>SK Innovate Tech Solutions</h1>
+    </header>
+    <p>Fill the registration form below to apply</p>
+    <form>
+    <fieldset> 
+     <legend>Personal Details</legend>
+     <div class="row">
+        <div class="c25">
+           <label for="mail">email:</label>
+        </div> 
+        <div class="c75">
+           <input  id="mail" class="text"  type="email"  name="mail" placeholder="example@gmail.com" required>
+        </div> 
+     </div>
+     <div class="row">
+        <div class="c25">
+             <label for="fname">First Name:</label>
+        </div>
+        <div class="c75">
+             <input class="text" id="fname" type="text"  name="fname" placeholder="First name" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="c25">
+            <label for="lname">Last Name:</label>
+        </div> 
+        <div class="c75">   
+          <input class="text" id="lname"  type="text" name="lname" placeholder="Last name" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="c25">
+           <label for="dob"> Date of birth:</label>
+        </div> 
+        <div class="c75">
+            <input class="text"  id="dob" type="date" name="dob" placeholder="date" required>
+        </div> 
+    </div> 
+    <div class="row">
+        <div class="c25">
+          <label for="adress">Address:</label>
+        </div>
+        <div class="c75">
+           <textarea id="adress"></textarea>
+        </div>
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Course details</legend>
+        <div class="row">
+            <div class="c25">
+               <label for="cname">College Name:</label>
+            </div>
+            <div class="c75">
+                <input id="cname" class="text"  type="text" name="cname" placeholder="College name" required><br>
+            </div>
+        </div>     
+        <div class="row">
+            <div class="c25"> 
+                <label id="dgre">Branch:</label>
+            </div>
+            <div id="dgre" class="c75">
+            <input  type="radio"  id="ece" value="ECE" name="degree" required><label for="ece">ECE</label>
+            <br>
+            <input  type="radio" id="eee"  value="EEE" name="degree" required ><label for="eee">EEE</label>
+            <br>
+            <input  type="radio" id="cse" value="CSE" name="degree" required ><label for="cse">CSE</label>
+            <br>
+            <input  type="radio" id="it" value="IT" name="degree" required ><label for="it">IT</label>
+            <br>
+            <input  type="radio" id="mech"  value="Mech" name="degree" required ><label for="mech">Mech</label>
+            <br>
+            <input  type="radio" id="civl" value="Civil" name="degree" required ><label for="civl">Civil</label>
+            <br>
+            </div>
+        </div>
+        <div class="row">
+            <label for="percent">Percentage:</label>
+            <input id="percent" class="text"  type="number" name="percentagee" >
+            <br>
+            <label for="yr">Year of Graduation:</label>
+            <select id="yr" name="year" title="year">
+                <option value="none">--Select year--</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            Skills:
+            <br>
+            <input type="checkbox" id="c" value="c" name="skill" ><label for="c">C</label>
+            <br>
+            <input type="checkbox"  id="c++"value="c++" name="skill" ><Label for="c++">C++</Label>
+            <br>
+            <input type="checkbox" id="java" value="java" name="skill" ><label for="java">Java</label>
+            <br>
+            <input type="checkbox" id="py" value="python" name="skill" ><label for="py">Python</label>
+            <br>
+            <label for="mmo">Internship:</label>
+            <input id="mmo" type="file"  name="memo"> <br>
+             Work Experience:
+             <br>
+            <label for="comp">Company name:</label>
+            <input id="comp" class="text"  type="text" name="company-name" >
+            <br>
+            <label for="rle">Role :</label>
+            <input id="rle" class="text"   type="text" list="roles" name="role" >
+            <datalist  id="roles">
+                <option value="Software Engineer" ></option>
+                <option value="Software Developer" ></option>
+                <option value="Junior Software Developer" ></option>
+                <option value="Intern Software Developer"></option>
+                <option value="Chief Architect"></option>
+                <option value="Software Architect"></option>
+            </datalist>
+            <br>
+            <label for="nofm">no of months:</label>
+            <br>
+            <input id="nofm" class="text"   type="number" name="nofmonths" >
+        </fieldset>
+   <input type="submit" >
+   <input type="reset" > 
+</form>
+
+    <br>
+    <br>
+    <p>Hiring Procedure:</p>
+    <iframe class="yt" width="250" src="https://www.youtube.com/embed/Roktg-0fuyQ?si=apEUAdLeR3IFIUuZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<footer>
+    <p>&copy; &lt; &lt; &lt; skits &gt;&gt;&gt;</p>
+    <a href="mailto:battasrikanth21@gmail.com" target="-main" >Email us</a>
+     or
+    <a href="https://www.instagram.com/__sreekanthb__/" target="-main"> visit our website</a>  
+</footer> 
+</body>
+</html>
